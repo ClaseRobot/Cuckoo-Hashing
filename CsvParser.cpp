@@ -4,5 +4,7 @@
 using namespace UndavCsvParser;
 
 Record** GetRecords(const char* csvFileContent, int keyFieldPosition = 0) {
-	return 0;
+	Record** newRecord = new Record*;
+	
+	return newRecord;
 }
